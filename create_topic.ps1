@@ -1,0 +1,1 @@
+docker run -it --rm --network host bitnami/kafka:latest /opt/bitnami/kafka/bin/kafka-topics.sh --create --topic my-topic --bootstrap-server localhost:29092
